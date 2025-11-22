@@ -1,0 +1,50 @@
+# Monitors CPU usage and performance
+cpu monitor command
+
+# Terminates processes by PID or name
+kill command
+
+# Creates backups of files or directories
+backup command
+
+# Changes the current working directory
+cd command
+
+# Changes file permissions
+chmod command
+
+# Changes file ownership
+chown command
+
+# Copies files or directories
+cp command
+
+# Downloads files from the internet
+download command
+
+# Displays or configures IP address and network settings
+ip command
+
+# Removes files or directories
+rm command
+
+# Moves or renames files or directories
+mv command
+
+# Shows active network connections and listening ports
+netstat command
+
+# Tests connectivity to another host
+ping command
+
+# Displays running processes
+ps command
+
+# Prints the current working directory
+pwd command
+
+# Displays directory structure in a tree format
+tree command
+
+# Verifies if a program or package is installed
+verify installation
