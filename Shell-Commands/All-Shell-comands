@@ -1,50 +1,59 @@
-# Monitors CPU usage and performance
-cpu monitor command
+# 1. Display basic system information (built-in alternative to neofetch)
+uname -a
 
-# Terminates processes by PID or name
-kill command
+# 2. Check Ubuntu version and release info
+lsb_release -a
 
-# Creates backups of files or directories
-backup command
+# 3. List files with details, sizes, permissions
+ls -lah
 
-# Changes the current working directory
-cd command
+# 4. Create a new directory
+mkdir new_folder
 
-# Changes file permissions
-chmod command
+# 5. Rename or move a file/directory
+mv oldname.txt newname.txt
 
-# Changes file ownership
-chown command
+# 6. Copy a file to another location
+cp file.txt ~/backup/
 
-# Copies files or directories
-cp command
+# 7. Delete a file or directory (use carefully)
+rm -r foldername
 
-# Downloads files from the internet
-download command
+# 8. Search for specific text inside files recursively
+grep -r "keyword" /path
 
-# Displays or configures IP address and network settings
-ip command
+# 9. Show running processes (built-in system monitor)
+top
 
-# Removes files or directories
-rm command
+# 10. Show all open listening ports and processes (built-in alternative to netstat)
+sudo ss -tulnp
 
-# Moves or renames files or directories
-mv command
+# 11. Display your machine's IP address
+hostname -I
 
-# Shows active network connections and listening ports
-netstat command
+# 12. Update package lists and upgrade installed packages
+sudo apt update && sudo apt upgrade
 
-# Tests connectivity to another host
-ping command
+# 13. Show disk usage in human-readable format
+df -h
 
-# Displays running processes
-ps command
+# 14. Show size of each file/folder in the current directory
+du -sh *
 
-# Prints the current working directory
-pwd command
+# 15. Create an empty file
+touch file.txt
 
-# Displays directory structure in a tree format
-tree command
+# 16. View the contents of a file with scrolling support
+less filename.txt
 
-# Verifies if a program or package is installed
-verify installation
+# 17. Continuously view the last lines of a log file
+tail -f /var/log/syslog
+
+# 18. Install a software package
+sudo apt install package_name
+
+# 19. Find the full path of a command
+which python3
+
+# 20. Forcefully kill a process using its PID
+kill -9 <PID>
